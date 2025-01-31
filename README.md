@@ -29,7 +29,7 @@ Welcome to my portfolio! This website showcases my skills, projects, and contact
 This portfolio can be accessed online using the following methods:
 
 1. **GitHub Pages**: The website is hosted for free on GitHub Pages.
-   - URL: https://Pradeepp09.github.io/Portfolio#
+   - URL: https://Pradeepp09.github.io/Portfolio
 
 2. **Local Viewing**:
    - Download the files and open `index.html` in your browser.
