@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    padding: 40px 20px;
+}
+/* Global scrollbar styles for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 20px; /* Adjust width */
+    height: 20px; /* For horizontal scrollbar */
+  }
+  
+  /* Track (background) */
+  ::-webkit-scrollbar-track {
+    background: #fd5555; /* Light grey background */
+    border-radius: 15px;
+  }
+  
+  /* Handle (draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #e25757; 
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e86767;
+  }
+  
+  /* Firefox Support */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff5f5f #4c437a;
+  }
+  
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Cool Gradient */
+    color: white;
+    padding: 50px 0;
+    text-align: left;
+    
+}
+
+/* Name Styling */
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: transparent;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1c40f !important; /* Highlight Effect */
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #f1c40f;
+}
+
+
+/* About Section */
+#about {
+    background: linear-gradient(to right, #ff8c00, #ff6347);
+    padding: 60px 20px;
+    color: white;
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to right, #34495e, #2c3e50);
+    padding: 60px 20px;
+    color: white;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Projects Section */
+.project {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 80%;
+    color: white;
+}
+
+/* Carousel */
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    padding: 60px 20px;
+    color: white;
+}
+
+.social-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    padding: 20px;
+    color: white;
+}
+
