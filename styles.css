@@ -1,3 +1,5 @@
+# Move the external CSS code into a separate file named `styles.css`
+css_code = """
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,42 +15,36 @@ body {
     margin: auto;
     padding: 40px 20px;
 }
+
 /* Global scrollbar styles for WebKit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
-    width: 20px; /* Adjust width */
-    height: 20px; /* For horizontal scrollbar */
-  }
-  
-  /* Track (background) */
-  ::-webkit-scrollbar-track {
-    background: #fd5555; /* Light grey background */
+    width: 20px;
+    height: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #fd5555;
     border-radius: 15px;
-  }
-  
-  /* Handle (draggable part) */
-  ::-webkit-scrollbar-thumb {
-    background: #e25757; 
+}
+::-webkit-scrollbar-thumb {
+    background: #e25757;
     border-radius: 15px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+::-webkit-scrollbar-thumb:hover {
     background: #e86767;
-  }
-  
-  /* Firefox Support */
-  * {
+}
+
+/* Firefox Support */
+* {
     scrollbar-width: thin;
     scrollbar-color: #ff5f5f #4c437a;
-  }
-  
+}
+
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Cool Gradient */
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
     padding: 50px 0;
     text-align: left;
-    
 }
 
 /* Name Styling */
@@ -72,7 +68,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f1c40f !important; /* Highlight Effect */
+    color: #f1c40f !important;
 }
 
 /* Social Media Links */
@@ -91,7 +87,6 @@ body {
     transform: scale(1.2);
     color: #f1c40f;
 }
-
 
 /* About Section */
 #about {
@@ -164,4 +159,6 @@ footer {
     padding: 20px;
     color: white;
 }
+"""
+
 
